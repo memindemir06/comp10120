@@ -34,6 +34,26 @@
         font-size: 1rem;
         line-height: 50px;
       }
+      aside {
+        width: 150px;
+        min-width: 100px;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        text-align: center;
+        background-color: #e8b8b7;
+        float: left;
+      }
+      aside a {
+        line-height: 50px;
+      }
+      main {
+        background-color: #f2dbdb;
+        border-top: 1px solid white;
+      }
+      aside,
+      main {
+        height: 300px;
+      }
     </style>
   </head>
   <body>
@@ -49,9 +69,18 @@
         <a href="classTimes.html">Class Times</a>
       </h2>
     </nav>
-    <hr />
-    <p>Information on <b>submission</b> dates.</p>
-    <a href="moduleTutors.html">Module Tutors</a>
-    <img src="deadline.jpg" alt="A deadline Image" width="104" height="142" />
+    <aside>
+      <a href="comp10120.html">COMP10120</a>
+      <a href="comp10140.html">COMP10140</a>
+      <a href="comp10150.html">COMP10150</a>
+    </aside>
+    <main>
+      <h1>Welcome</h1>
+      <p>
+        Click one of the course codes to the left to learn more about that
+        course or one of the links above to learn general information that
+        relates to all courses.
+      </p>
+    </main>
   </body>
 </html>
